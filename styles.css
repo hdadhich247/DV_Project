@@ -1,0 +1,13 @@
+g {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.tick line {
+	fill: none;
+	display:none;
+}
+
+.domain {
+	display: none;
+}
