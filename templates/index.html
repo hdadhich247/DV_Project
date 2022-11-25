@@ -1,233 +1,269 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-    <link rel="stylesheet" src="static/css/bootstrap.min.css">
-    <link rel="stylesheet" src="static/css/styles.css">
-	<meta charset="utf-8"/>
+	<link rel="stylesheet" src="static/css/bootstrap.min.css">
+	<link rel="stylesheet" src="static/css/styles.css">
+	<meta charset="utf-8" />
 	<title></title>
 </head>
+
 <body>
-<div class="tab-pane fade" id="textview" role="tabpanel" aria-labelledby="pills-text-view">
-    <!-- Text View Starts -->
-    <div class="row mx-0" style="height:1000px">
-        <div class="card-body-topic col-xl-6 p-0" style="overflow: scroll;width:20%;float: left;" >
-            progress bar<br>
-        </div>
-        <div class="col-xl-6 p-0" style="width:50%;float: left;height:950px;">
-            <div class="card h-100 m-1 mt-2">
-                <div class="card-header">
-                    <h5 id="doc-title">Document.txt</h5>
-                </div>
-                <div id="doc-text-html" class="card-body">
+	<div class="tab-pane fade" id="textview" role="tabpanel" aria-labelledby="pills-text-view">
+		<!-- Text View Starts -->
+		<div class="row mx-0" style="height:1000px">
+			<div class="card-body-topic col" style="overflow: scroll; width:15%; float:left;">
+				{% for n in range(30) %}
+				<div class="alert t{{n}} tpcbutton" style="background-color: {{colors_str[n]}}">
+					<div class="progress active" >
+						<div class="progress-bar prog{{n}}" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+							aria-valuemax="100" style="width: 35%">Topic {{n}}</div>
+					</div>
+				</div>
+				{% endfor %}
 
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-4 p-0" style="width:30%;float: left;">
-            <div class="card h-100 m-1 mt-2">
-                <div class="card-header">
-                    <h5 style="float: left;">Topic Overview</h5>
-                </div>
-                <div class="card-body" id="textoverview1">
-                </div>
-            </div>
-        </div>
+			</div>
 
-    </div>
+			<div class="col-xl-6 p-0" style="width:45%;float: left;height:950px;">
+				<div class="card h-100 m-1 mt-2">
+					<div class="card-header">
+						<h5 id="doc-title">Document.txt</h5>
+					</div>
+					<div id="doc-text-html" class="card-body">
 
-    <div class="row mx-0 float:left">
-        <button type="button" onclick="textViewInit('data/doc0.txt')">Click me bro</button>
-    </div>
-</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 p-0" style="width:30%;float: left;">
+				<div class="card h-100 m-1 mt-2">
+					<div class="card-header">
+						<h5 style="float: left;">Topic Overview</h5>
+					</div>
+					<div class="card-body" id="textoverview1">
+					</div>
+				</div>
+			</div>
 
-    <script type="text/javascript" src="scripts/d3.min.js"></script>
+		</div>
+
+		<div class="row mx-0 float:left">
+			<button type="button" onclick="textViewInit('data/doc0.txt')">Click me bro</button>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="scripts/d3.min.js"></script>
 	<script src="https://d3js.org/d3.v7.min.js"></script>
 
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 	<script type="text/javascript" src="static/scripts/text_overview.js"></script>
 	<script type="text/javascript">
-    	function textViewInit(dname)
-    	{
-    		$("h5#doc-title").text(dname);
-    		var topic_colors;
+		function textViewInit(dname) {
+			$("h5#doc-title").text(dname);
+			var topic_colors;
 
-    		/*
-            $.ajax({
-		      url: "/get_colors",
-		      type: "get",
-		      async: false,
-		      data: {},
-		      success: function(response) {
-		        topic_colors = response.colors;
-		      },
-		      error: function(xhr) {
-		        //Do Something to handle error
-		      }
-		    });
-            */
-    		var topic_x_word;
-            /*
-    		$.ajax({
-		      url: "/get_topic_words_json",
-		      type: "get",
-		      async:false,
-		      data: {},
-		      success: function(response) {
-		        topic_x_word = response["topic_words_json"];
-		      },
-		      error: function(xhr) {
-		        //Do Something to handle error
-		      }
-		    });
-            */
-           var docid
-    		//var docid = window.localStorage.getItem("docid");
+			$.ajax({
+				url: "/get_colors",
+				type: "get",
+				async: false,
+				data: {},
+				success: function (response) {
+					topic_colors = response.colors;
+				},
+				error: function (xhr) {
+					//Do Something to handle error
+				}
+			});
+			console.log(topic_colors)
+			var topic_x_word;
 
-            /*
-    		$.ajax({
-		      url: "/get_doc",
-		      type: "get",
-		      async: false,
-		      data: {docid: docid},
-		      success: function(response) {
-		        window.localStorage.setItem("docText", response.html);
-		        for(var i=0;i<30;i++)
-		        {
-		        	$(".progress-bar.prog"+i).css('width',10 + 90*response.topicscores[i]+'%').attr("aria-valuenow",response.topicscores[i])
-		        	// $('.progress-bar').css('width', valeur+'%').attr('aria-valuenow', valeur);
-		        } 
-		      },
-		      error: function(xhr) {
-		        //Do Something to handle error
-		      }
-		    });
-            */
+			$.ajax({
+				url: "/get_topic_words_json",
+				type: "get",
+				async: false,
+				data: {},
+				success: function (response) {
+					topic_x_word = response["topic_words_json"];
+				},
+				error: function (xhr) {
+					//Do Something to handle error
+				}
+			});
+			console.log(topic_x_word)
+			var docid = 0 //TODO: Get from corpus view or the main page
+			//var docid = window.localStorage.getItem("docid");
+			console.log(docid)
 
-		    //var txt = window.localStorage.getItem("docText");
+			$.ajax({
+				url: "/get_doc",
+				type: "get",
+				async: false,
+				data: { docid: docid },
+				success: function (response) {
+					console.log(response.topicscores)
+					//window.localStorage.setItem("docText", response.html);
+					for (var i = 0; i < 30; i++) {
+						//console.log(i)
+						//console.log(90*response.topicscores[i])
+						$(".progress-bar.prog" + i).css('width', 10 + 90 * response.topicscores[i] + '%').attr("aria-valuenow", 10 + 90 * response.topicscores[i])
+					}
+				},
+				error: function (xhr) {
+					//Do Something to handle error
+				}
+			});
+
+
+
+			//var txt = window.localStorage.getItem("docText");
 			/*
 			d3.select("#doc-text-html")
-                .append("p")
-                .html(txt);
+				.append("p")
+				.html(txt);
 			*/
-            d3.text("data/doc0.txt").then(function(data)
-            {
-                d3.select("#doc-text-html")
-                .append("p")
-                .html(data);
-            });
-			
-            /*
+			d3.text("data/doc0.txt").then(function (data) {
+				d3.select("#doc-text-html")
+					.append("p")
+					.html(data);
+			});
+
+			/*
 			var temp = '';
 			$("span.hoverable").mouseenter(function() {
 				temp = $(this).css("background-color");
-			    $(this).css("background-color", "#aaaaaa").css("border-radius", "3px");
+				$(this).css("background-color", "#aaaaaa").css("border-radius", "3px");
 			}).mouseleave(function() {
-			     $(this).css("background-color", temp).css("border-radius", "0px");
+				 $(this).css("background-color", temp).css("border-radius", "0px");
 			});
-            */
+			*/
 			//var data;
 			/*
-            d3.json("data/doc0_linegraph.json", function(data) {
-                console.log(data);
-                topicLineGraph("textoverview1",data["data"]);
-            });
-			*/
-			d3.json("data/doc0_linegraph.json").then(function(data) {
-                console.log(data);
-                topicLineGraph("textoverview1",data["data"]);
-            });
-
-            /*
-	    	$.ajax({
-			      url: "/get_linegraph_data",
-			      type: "get",
-			      async: false,
-			      data: {did:docid},
-			      success: function(response) {
-			        data = response
-			      },
-			      error: function(xhr) {
-			        //Do Something to handle error
-			    }
+			d3.json("data/doc0_linegraph.json", function(data) {
+				console.log(data);
+				topicLineGraph("textoverview1",data["data"]);
 			});
-            */
+			*/
+			d3.json("data/doc0_linegraph.json").then(function (data) {
+				console.log(data);
+				topicLineGraph("textoverview1", data["data"]);
+			});
+
+			/*
+			$.ajax({
+				  url: "/get_linegraph_data",
+				  type: "get",
+				  async: false,
+				  data: {did:docid},
+				  success: function(response) {
+					data = response
+				  },
+				  error: function(xhr) {
+					//Do Something to handle error
+				}
+			});
+			*/
 			//topicLineGraph("textoverview0",data["data"]);
 
+
+			/*
+						var topic_clrs = {}
+					    
+						$('.tpcbutton').click(function() {
+								var myClass = $(this).attr("class");
+								var classes = myClass.split(" ");
 			
-/*
-			var topic_clrs = {}
-            
-			$('.tpcbutton').click(function() {
-	  			var myClass = $(this).attr("class");
-	  			var classes = myClass.split(" ");
+								var topic = "";
+								var selected = classes.indexOf("topic-selected");
+			
+								for(i in classes){
+									if( classes[i].startsWith("t") && classes[i].length<4 ){
+										topic = classes[i]
+										break
+									}
+								}
+								var topicNo = parseInt(topic.replace("t",''))
+								if(topicNo in topic_clrs){
+			
+								} 
+								else{
+									topic_clrs[topicNo] = 0
+								}
+			
+			
+							if(selected >= 0 || topic_clrs[topicNo] == 1){
+								$("span."+topic).css({"background-color":""});
+								$(this).removeClass("topic-selected");
+								topic_clrs[topicNo] = 0
+								$("div."+topic+".tpcbutton").css("border-color","transparent");
+							}
+							else{
+								
+								$("span."+topic).each(function( k, v ) {
+			
+									var t = $(this).text();
+										var wordScore = topic_x_word[topic][t.toLowerCase()];
+									var r = ( topic_colors[topicNo][0] * (1+wordScore*2) ).toString()
+									var g = ( topic_colors[topicNo][1] * (1+wordScore*2) ).toString()
+									var b = ( topic_colors[topicNo][2] * (1+wordScore*2) ).toString()
+										var rgbtext = "rgb("+r+","+g+","+b+")";
+			
+										$(this).css({"background-color":rgbtext});
+								});
+			
+			
+								// tagName = this.nodeName.toLowerCase();
+								// if (tagName == "div"){
+								// 	$("path."+topic).click()
+								// }
+								$("div."+topic+".tpcbutton").css("border-color","#000");
+								$(this).addClass("topic-selected");
+								topic_clrs[topicNo] = 1
+							}
+					    
+			
+							}
+			
+					    
+					);
+					*/
 
-	  			var topic = "";
-	  			var selected = classes.indexOf("topic-selected");
+		}
 
-	  			for(i in classes){
-		  			if( classes[i].startsWith("t") && classes[i].length<4 ){
-		  				topic = classes[i]
-		  				break
-		  			}
-	  			}
-	  			var topicNo = parseInt(topic.replace("t",''))
-	  			if(topicNo in topic_clrs){
+		function closew(span) {
+			$(span).parent().remove();
+			// delete_word();
+			add_word();
+		}
+		$(document).ready(function() {
+    		$.ajax({
+		      url: "/get_colors",
+		      type: "get",
+		      data: {},
+		      success: function(response) {
+		        window.localStorage.setItem("colors", response.colors);
+		        console.log(response)
+		      },
+		      error: function(xhr) {
+		        //Do Something to handle error
+		      }
+		    });
 
-	  			} 
-	  			else{
-	  				topic_clrs[topicNo] = 0
-	  			}
+    		var DATA_FOLDER="{{ url_for('static', filename='data/')}}";
+	    	// var path="{{ url_for('static', filename='data/text_topic_matrix.csv')}}";
+	    	window.localStorage.setItem("DATA_FOLDER",DATA_FOLDER);
+	    	window.localStorage.setItem("sId",1);
+	    	
 
+	    	drawMatrix();
+	    	add_word();
+	    	// topicLineGraph("textoverview0");
+	    	// topicLineGraph("textoverview1");
+	    	
+	    });
 
-				if(selected >= 0 || topic_clrs[topicNo] == 1){
-					$("span."+topic).css({"background-color":""});
-					$(this).removeClass("topic-selected");
-					topic_clrs[topicNo] = 0
-					$("div."+topic+".tpcbutton").css("border-color","transparent");
-				}
-				else{
-					
-					$("span."+topic).each(function( k, v ) {
-
-						var t = $(this).text();
-  						var wordScore = topic_x_word[topic][t.toLowerCase()];
-						var r = ( topic_colors[topicNo][0] * (1+wordScore*2) ).toString()
-						var g = ( topic_colors[topicNo][1] * (1+wordScore*2) ).toString()
-						var b = ( topic_colors[topicNo][2] * (1+wordScore*2) ).toString()
-  						var rgbtext = "rgb("+r+","+g+","+b+")";
-
-  						$(this).css({"background-color":rgbtext});
-					});
-
-
-					// tagName = this.nodeName.toLowerCase();
-					// if (tagName == "div"){
-					// 	$("path."+topic).click()
-					// }
-					$("div."+topic+".tpcbutton").css("border-color","#000");
-					$(this).addClass("topic-selected");
-					topic_clrs[topicNo] = 1
-				}
-            
-
-  			}
-
-            
-		);
-        */
-    	
-    	}
-
-    function closew(span) {
-	    $(span).parent().remove();
-	    // delete_word();
-	    add_word();
-	}
-
-
-    </script>
+	</script>
 
 
 </body>
+
 </html>
