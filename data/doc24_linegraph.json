@@ -1,0 +1,3424 @@
+{
+ "data": [
+  {
+   "name": "Topic0",
+   "id": "t0",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0.0010992828"
+    },
+    {
+     "line": "7",
+     "frequency": "0"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0.0011392713"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0.018073544"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0"
+    }
+   ]
+  },
+  {
+   "name": "Topic1",
+   "id": "t1",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0.0142963539"
+    },
+    {
+     "line": "2",
+     "frequency": "0.0055835852"
+    },
+    {
+     "line": "3",
+     "frequency": "0.0054308986"
+    },
+    {
+     "line": "4",
+     "frequency": "0.0111246232"
+    },
+    {
+     "line": "5",
+     "frequency": "0.0080534329"
+    },
+    {
+     "line": "6",
+     "frequency": "0.025860635899999998"
+    },
+    {
+     "line": "7",
+     "frequency": "0.003956247"
+    },
+    {
+     "line": "8",
+     "frequency": "0.0097045385"
+    },
+    {
+     "line": "9",
+     "frequency": "0.0075591486"
+    },
+    {
+     "line": "10",
+     "frequency": "0.0075591486"
+    },
+    {
+     "line": "11",
+     "frequency": "0.003956247"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0.0102776428"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0.0029456348"
+    },
+    {
+     "line": "18",
+     "frequency": "0.005365873199999999"
+    },
+    {
+     "line": "19",
+     "frequency": "0.0051388214"
+    },
+    {
+     "line": "20",
+     "frequency": "0.012255031199999999"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0.0054308986"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0.013802069600000001"
+    },
+    {
+     "line": "25",
+     "frequency": "0.0051388214"
+    },
+    {
+     "line": "26",
+     "frequency": "0.0075591486"
+    },
+    {
+     "line": "27",
+     "frequency": "0.0115153956"
+    }
+   ]
+  },
+  {
+   "name": "Topic2",
+   "id": "t2",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0"
+    },
+    {
+     "line": "7",
+     "frequency": "0"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0.0033213685"
+    },
+    {
+     "line": "11",
+     "frequency": "0.0033173442"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0"
+    }
+   ]
+  },
+  {
+   "name": "Topic3",
+   "id": "t3",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0.00254308"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0.011061840600000001"
+    },
+    {
+     "line": "7",
+     "frequency": "0.0035187916"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0.0031472805"
+    },
+    {
+     "line": "10",
+     "frequency": "0.0066660721"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0.0022065209"
+    },
+    {
+     "line": "18",
+     "frequency": "0.0025698273"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0.0031472805"
+    },
+    {
+     "line": "25",
+     "frequency": "0.002496686"
+    },
+    {
+     "line": "26",
+     "frequency": "0.0031472805"
+    },
+    {
+     "line": "27",
+     "frequency": "0.0031472805"
+    }
+   ]
+  },
+  {
+   "name": "Topic4",
+   "id": "t4",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0.00133548"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0"
+    },
+    {
+     "line": "7",
+     "frequency": "0.006246554"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0.006246554"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0.0058769314"
+    },
+    {
+     "line": "15",
+     "frequency": "0.003249133"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0"
+    },
+    {
+     "line": "19",
+     "frequency": "0.003249133"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0.006246554"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0.018279811"
+    }
+   ]
+  },
+  {
+   "name": "Topic5",
+   "id": "t5",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0.0027564333"
+    },
+    {
+     "line": "2",
+     "frequency": "0"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0.008800521300000001"
+    },
+    {
+     "line": "7",
+     "frequency": "0"
+    },
+    {
+     "line": "8",
+     "frequency": "0.0027564333"
+    },
+    {
+     "line": "9",
+     "frequency": "0.003022044"
+    },
+    {
+     "line": "10",
+     "frequency": "0.003022044"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0.010127014"
+    },
+    {
+     "line": "18",
+     "frequency": "0"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0.0057784773"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0.003022044"
+    },
+    {
+     "line": "27",
+     "frequency": "0.003022044"
+    }
+   ]
+  },
+  {
+   "name": "Topic6",
+   "id": "t6",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0.0045044967"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0.0026638655"
+    },
+    {
+     "line": "7",
+     "frequency": "0.0026320734"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0.0026320734"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0.0026320734"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0"
+    }
+   ]
+  },
+  {
+   "name": "Topic7",
+   "id": "t7",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0.0022880908"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0"
+    },
+    {
+     "line": "7",
+     "frequency": "0.0022519557"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0"
+    },
+    {
+     "line": "11",
+     "frequency": "0.0022519557"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0.009160069"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0.003418059"
+    },
+    {
+     "line": "19",
+     "frequency": "0.009160069"
+    },
+    {
+     "line": "20",
+     "frequency": "0.0022519557"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0.0022519557"
+    }
+   ]
+  },
+  {
+   "name": "Topic8",
+   "id": "t8",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0"
+    },
+    {
+     "line": "7",
+     "frequency": "0"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0.010904303"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0"
+    }
+   ]
+  },
+  {
+   "name": "Topic9",
+   "id": "t9",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0.0017476153"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0.0035182882"
+    },
+    {
+     "line": "5",
+     "frequency": "0.0019454871"
+    },
+    {
+     "line": "6",
+     "frequency": "0.0038810806"
+    },
+    {
+     "line": "7",
+     "frequency": "0.0038051305"
+    },
+    {
+     "line": "8",
+     "frequency": "0.0015584086"
+    },
+    {
+     "line": "9",
+     "frequency": "0.0036881556"
+    },
+    {
+     "line": "10",
+     "frequency": "0.0057456708"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0.0049904035"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0.0015735263"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0.0019405403"
+    },
+    {
+     "line": "25",
+     "frequency": "0.0015650974"
+    },
+    {
+     "line": "26",
+     "frequency": "0.0019405403"
+    },
+    {
+     "line": "27",
+     "frequency": "0.0019405403"
+    }
+   ]
+  },
+  {
+   "name": "Topic10",
+   "id": "t10",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0.0150415699"
+    },
+    {
+     "line": "2",
+     "frequency": "0.0043999553"
+    },
+    {
+     "line": "3",
+     "frequency": "0.0120466683"
+    },
+    {
+     "line": "4",
+     "frequency": "0.006914687500000001"
+    },
+    {
+     "line": "5",
+     "frequency": "0.0094087973"
+    },
+    {
+     "line": "6",
+     "frequency": "0.033129985599999995"
+    },
+    {
+     "line": "7",
+     "frequency": "0.0053759236"
+    },
+    {
+     "line": "8",
+     "frequency": "0.0089692981"
+    },
+    {
+     "line": "9",
+     "frequency": "0.008048293"
+    },
+    {
+     "line": "10",
+     "frequency": "0.0134242166"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0.0061084228"
+    },
+    {
+     "line": "15",
+     "frequency": "0.0132082086"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0.008009673"
+    },
+    {
+     "line": "18",
+     "frequency": "0.0124008844"
+    },
+    {
+     "line": "19",
+     "frequency": "0.0066041043"
+    },
+    {
+     "line": "20",
+     "frequency": "0.0066041043"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0.0140354476"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0.0136810656"
+    },
+    {
+     "line": "25",
+     "frequency": "0.0066041043"
+    },
+    {
+     "line": "26",
+     "frequency": "0.008048293"
+    },
+    {
+     "line": "27",
+     "frequency": "0.008048293"
+    }
+   ]
+  },
+  {
+   "name": "Topic11",
+   "id": "t11",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0.0014129026"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0"
+    },
+    {
+     "line": "7",
+     "frequency": "0"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0.0040672957"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0"
+    },
+    {
+     "line": "19",
+     "frequency": "0.0040672957"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0"
+    }
+   ]
+  },
+  {
+   "name": "Topic12",
+   "id": "t12",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0.0357888098"
+    },
+    {
+     "line": "2",
+     "frequency": "0.008406774700000001"
+    },
+    {
+     "line": "3",
+     "frequency": "0.0128564865"
+    },
+    {
+     "line": "4",
+     "frequency": "0.0133560547"
+    },
+    {
+     "line": "5",
+     "frequency": "0.021420725"
+    },
+    {
+     "line": "6",
+     "frequency": "0.0513153745"
+    },
+    {
+     "line": "7",
+     "frequency": "0.037129368100000004"
+    },
+    {
+     "line": "8",
+     "frequency": "0.019005610899999997"
+    },
+    {
+     "line": "9",
+     "frequency": "0.023555209200000003"
+    },
+    {
+     "line": "10",
+     "frequency": "0.041483400100000005"
+    },
+    {
+     "line": "11",
+     "frequency": "0.0192225903"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0.0128837363"
+    },
+    {
+     "line": "14",
+     "frequency": "0.0075509419"
+    },
+    {
+     "line": "15",
+     "frequency": "0.0366494567"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0.005859219000000001"
+    },
+    {
+     "line": "18",
+     "frequency": "0.047332742600000005"
+    },
+    {
+     "line": "19",
+     "frequency": "0.0217942183"
+    },
+    {
+     "line": "20",
+     "frequency": "0.0330026172"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0.0170925378"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0.028756552"
+    },
+    {
+     "line": "25",
+     "frequency": "0.019329138500000002"
+    },
+    {
+     "line": "26",
+     "frequency": "0.0216082798"
+    },
+    {
+     "line": "27",
+     "frequency": "0.033474323900000005"
+    }
+   ]
+  },
+  {
+   "name": "Topic13",
+   "id": "t13",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0.003870238"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0"
+    },
+    {
+     "line": "7",
+     "frequency": "0"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0.013290311"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0"
+    },
+    {
+     "line": "19",
+     "frequency": "0.013290311"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0"
+    }
+   ]
+  },
+  {
+   "name": "Topic14",
+   "id": "t14",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0"
+    },
+    {
+     "line": "7",
+     "frequency": "0"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0.008526132"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0"
+    }
+   ]
+  },
+  {
+   "name": "Topic15",
+   "id": "t15",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0.030872874099999996"
+    },
+    {
+     "line": "2",
+     "frequency": "0.0071975612999999996"
+    },
+    {
+     "line": "3",
+     "frequency": "0.020097826500000002"
+    },
+    {
+     "line": "4",
+     "frequency": "0.007935853999999999"
+    },
+    {
+     "line": "5",
+     "frequency": "0.0203348633"
+    },
+    {
+     "line": "6",
+     "frequency": "0.0566325426"
+    },
+    {
+     "line": "7",
+     "frequency": "0.0347980884"
+    },
+    {
+     "line": "8",
+     "frequency": "0.0238287504"
+    },
+    {
+     "line": "9",
+     "frequency": "0.0234661653"
+    },
+    {
+     "line": "10",
+     "frequency": "0.047694561200000006"
+    },
+    {
+     "line": "11",
+     "frequency": "0.0274500085"
+    },
+    {
+     "line": "12",
+     "frequency": "0.0138884012"
+    },
+    {
+     "line": "13",
+     "frequency": "0.0152052057"
+    },
+    {
+     "line": "14",
+     "frequency": "0.0061260085"
+    },
+    {
+     "line": "15",
+     "frequency": "0.034587264"
+    },
+    {
+     "line": "16",
+     "frequency": "0.0090459762"
+    },
+    {
+     "line": "17",
+     "frequency": "0.008542522399999999"
+    },
+    {
+     "line": "18",
+     "frequency": "0.0110713449"
+    },
+    {
+     "line": "19",
+     "frequency": "0.023646227299999996"
+    },
+    {
+     "line": "20",
+     "frequency": "0.02449121"
+    },
+    {
+     "line": "21",
+     "frequency": "0.0058088704"
+    },
+    {
+     "line": "22",
+     "frequency": "0.0230866748"
+    },
+    {
+     "line": "23",
+     "frequency": "0.002511539"
+    },
+    {
+     "line": "24",
+     "frequency": "0.032066504"
+    },
+    {
+     "line": "25",
+     "frequency": "0.0291403978"
+    },
+    {
+     "line": "26",
+     "frequency": "0.0315220803"
+    },
+    {
+     "line": "27",
+     "frequency": "0.040969178800000006"
+    }
+   ]
+  },
+  {
+   "name": "Topic16",
+   "id": "t16",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0.015456612500000001"
+    },
+    {
+     "line": "2",
+     "frequency": "0"
+    },
+    {
+     "line": "3",
+     "frequency": "0.0030015127"
+    },
+    {
+     "line": "4",
+     "frequency": "0"
+    },
+    {
+     "line": "5",
+     "frequency": "0.009542784"
+    },
+    {
+     "line": "6",
+     "frequency": "0.0248680384"
+    },
+    {
+     "line": "7",
+     "frequency": "0.0140767377"
+    },
+    {
+     "line": "8",
+     "frequency": "0.0059138285"
+    },
+    {
+     "line": "9",
+     "frequency": "0.0065050693"
+    },
+    {
+     "line": "10",
+     "frequency": "0.014566530500000001"
+    },
+    {
+     "line": "11",
+     "frequency": "0.0060152765"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0.0230194834"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0"
+    },
+    {
+     "line": "19",
+     "frequency": "0.0134766994"
+    },
+    {
+     "line": "20",
+     "frequency": "0.0155580605"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0.0066683029"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0.0124188978"
+    },
+    {
+     "line": "25",
+     "frequency": "0.009542784"
+    },
+    {
+     "line": "26",
+     "frequency": "0.0065050693"
+    },
+    {
+     "line": "27",
+     "frequency": "0.016915016800000002"
+    }
+   ]
+  },
+  {
+   "name": "Topic17",
+   "id": "t17",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0.0035702293"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0.0038533707"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0"
+    },
+    {
+     "line": "7",
+     "frequency": "0.003956769"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0"
+    },
+    {
+     "line": "11",
+     "frequency": "0.003956769"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0.0033547545"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0.003956769"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0.0022937434"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0.003956769"
+    }
+   ]
+  },
+  {
+   "name": "Topic18",
+   "id": "t18",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0"
+    },
+    {
+     "line": "7",
+     "frequency": "0"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0"
+    }
+   ]
+  },
+  {
+   "name": "Topic19",
+   "id": "t19",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0.0033970722"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0.016919453"
+    },
+    {
+     "line": "7",
+     "frequency": "0"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0.0057127303"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0.0037690774"
+    },
+    {
+     "line": "18",
+     "frequency": "0.0046945103"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0"
+    }
+   ]
+  },
+  {
+   "name": "Topic20",
+   "id": "t20",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0.0040757805"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0.012517497"
+    },
+    {
+     "line": "7",
+     "frequency": "0"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0.0074602054"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0"
+    }
+   ]
+  },
+  {
+   "name": "Topic21",
+   "id": "t21",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0.0046740263"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0"
+    },
+    {
+     "line": "7",
+     "frequency": "0"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0.0029067139"
+    }
+   ]
+  },
+  {
+   "name": "Topic22",
+   "id": "t22",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0.0017587539"
+    },
+    {
+     "line": "7",
+     "frequency": "0"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0.0015878787"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0"
+    }
+   ]
+  },
+  {
+   "name": "Topic23",
+   "id": "t23",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0.0035876601"
+    },
+    {
+     "line": "2",
+     "frequency": "0.0026488367"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0.00230724"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0.0139331609"
+    },
+    {
+     "line": "7",
+     "frequency": "0.0025458331"
+    },
+    {
+     "line": "8",
+     "frequency": "0.0035876601"
+    },
+    {
+     "line": "9",
+     "frequency": "0.0051727504"
+    },
+    {
+     "line": "10",
+     "frequency": "0.007718583500000001"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0.003889829"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0.006221936"
+    },
+    {
+     "line": "18",
+     "frequency": "0"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0.0087604105"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0.0051727504"
+    },
+    {
+     "line": "27",
+     "frequency": "0.0051727504"
+    }
+   ]
+  },
+  {
+   "name": "Topic24",
+   "id": "t24",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0.0033031898"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0.0029224176"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0.0029420864"
+    },
+    {
+     "line": "7",
+     "frequency": "0.011821796700000001"
+    },
+    {
+     "line": "8",
+     "frequency": "0.0029224176"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0.0097468947"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0.016694554"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0.0028948027"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0"
+    }
+   ]
+  },
+  {
+   "name": "Topic25",
+   "id": "t25",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0"
+    },
+    {
+     "line": "7",
+     "frequency": "0"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0.0033429593"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0"
+    },
+    {
+     "line": "19",
+     "frequency": "0.0033429593"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0"
+    }
+   ]
+  },
+  {
+   "name": "Topic26",
+   "id": "t26",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0.0014340519"
+    },
+    {
+     "line": "7",
+     "frequency": "0"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0.0022844893"
+    },
+    {
+     "line": "11",
+     "frequency": "0.0025201705"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0"
+    }
+   ]
+  },
+  {
+   "name": "Topic27",
+   "id": "t27",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0"
+    },
+    {
+     "line": "3",
+     "frequency": "0.0013993185"
+    },
+    {
+     "line": "4",
+     "frequency": "0"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0.003863801"
+    },
+    {
+     "line": "7",
+     "frequency": "0"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0.0012998884"
+    },
+    {
+     "line": "10",
+     "frequency": "0.0012998884"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0.0013294042"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0.0012897687"
+    },
+    {
+     "line": "18",
+     "frequency": "0"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0.0013993185"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0.0012998884"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0.0012998884"
+    },
+    {
+     "line": "27",
+     "frequency": "0.0012998884"
+    }
+   ]
+  },
+  {
+   "name": "Topic28",
+   "id": "t28",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0.007656632"
+    },
+    {
+     "line": "2",
+     "frequency": "0"
+    },
+    {
+     "line": "3",
+     "frequency": "0"
+    },
+    {
+     "line": "4",
+     "frequency": "0"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0.030425872"
+    },
+    {
+     "line": "7",
+     "frequency": "0"
+    },
+    {
+     "line": "8",
+     "frequency": "0.007656632"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0.0033031772"
+    },
+    {
+     "line": "15",
+     "frequency": "0.003994306"
+    },
+    {
+     "line": "16",
+     "frequency": "0.0037397149"
+    },
+    {
+     "line": "17",
+     "frequency": "0"
+    },
+    {
+     "line": "18",
+     "frequency": "0"
+    },
+    {
+     "line": "19",
+     "frequency": "0.003994306"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0.007656632"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0"
+    }
+   ]
+  },
+  {
+   "name": "Topic29",
+   "id": "t29",
+   "values": [
+    {
+     "line": "1",
+     "frequency": "0"
+    },
+    {
+     "line": "2",
+     "frequency": "0.0032653091"
+    },
+    {
+     "line": "3",
+     "frequency": "0.0078603733"
+    },
+    {
+     "line": "4",
+     "frequency": "0.002906863"
+    },
+    {
+     "line": "5",
+     "frequency": "0"
+    },
+    {
+     "line": "6",
+     "frequency": "0"
+    },
+    {
+     "line": "7",
+     "frequency": "0"
+    },
+    {
+     "line": "8",
+     "frequency": "0"
+    },
+    {
+     "line": "9",
+     "frequency": "0"
+    },
+    {
+     "line": "10",
+     "frequency": "0"
+    },
+    {
+     "line": "11",
+     "frequency": "0"
+    },
+    {
+     "line": "12",
+     "frequency": "0"
+    },
+    {
+     "line": "13",
+     "frequency": "0"
+    },
+    {
+     "line": "14",
+     "frequency": "0.005137785"
+    },
+    {
+     "line": "15",
+     "frequency": "0"
+    },
+    {
+     "line": "16",
+     "frequency": "0"
+    },
+    {
+     "line": "17",
+     "frequency": "0.0042688623"
+    },
+    {
+     "line": "18",
+     "frequency": "0.0086660143"
+    },
+    {
+     "line": "19",
+     "frequency": "0"
+    },
+    {
+     "line": "20",
+     "frequency": "0"
+    },
+    {
+     "line": "21",
+     "frequency": "0"
+    },
+    {
+     "line": "22",
+     "frequency": "0.0053452165"
+    },
+    {
+     "line": "23",
+     "frequency": "0"
+    },
+    {
+     "line": "24",
+     "frequency": "0"
+    },
+    {
+     "line": "25",
+     "frequency": "0"
+    },
+    {
+     "line": "26",
+     "frequency": "0"
+    },
+    {
+     "line": "27",
+     "frequency": "0"
+    }
+   ]
+  }
+ ]
+}
