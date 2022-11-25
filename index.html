@@ -2,10 +2,8 @@
 <html>
 <head>
 
-	<!--<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css')}}">-->
     <link rel="stylesheet" src="css/bootstrap.min.css">
     <link rel="stylesheet" src="css/styles.css">
-	<!--<link rel="stylesheet" href="{{ url_for('static', fil   ename='css/styles.css')}}">-->
 	<meta charset="utf-8"/>
 	<title></title>
 </head>
@@ -44,17 +42,16 @@
 </div>
 
     <script type="text/javascript" src="scripts/d3.min.js"></script>
-	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+
 	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-	<!--<script type="text/javascript" src="{{ url_for('static', filename='scripts/bootstrap.min.js')}}"></script>-->
-    
-    <!--<script type="text/javascript" src="{{ url_for('static', filename='scripts/text_overview.js')}}"></script>-->
-    <script type="text/javascript" src="scripts/text_overview.js"></script>
+	<script type="text/javascript" src="scripts/text_overview.js"></script>
 	<script type="text/javascript">
     	function textViewInit(dname)
     	{
             console.log(dname)
     		$("h5#doc-title").text(dname);
+			console.log(dname)
     		var topic_colors;
 
     		/*
@@ -111,19 +108,18 @@
 
 		    //var txt = window.localStorage.getItem("docText");
             var txt = "Hello Hrishikesh Hello Esha DV Sucks!!!"
-            d3.text("data/doc0.txt",function(error,data)
+			/*
+			d3.select("#doc-text-html")
+                .append("p")
+                .html(txt);
+			*/
+            d3.text("data/doc0.txt").then(function(data)
             {
-                if(error)
-                {
-                    console.log("HERE")
-                    return console.error(error);
-                
-                }
-                //console.log(data)
                 d3.select("#doc-text-html")
                 .append("p")
                 .html(data);
-            });  
+            });
+			
             /*
 			var temp = '';
 			$("span.hoverable").mouseenter(function() {
@@ -134,10 +130,17 @@
 			});
             */
 			//var data;
+			/*
             d3.json("data/doc0_linegraph.json", function(data) {
                 console.log(data);
                 topicLineGraph("textoverview1",data["data"]);
             });
+			*/
+			d3.json("data/doc0_linegraph.json").then(function(data) {
+                console.log(data);
+                topicLineGraph("textoverview1",data["data"]);
+            });
+
             /*
 	    	$.ajax({
 			      url: "/get_linegraph_data",
