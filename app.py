@@ -45,15 +45,21 @@ for i in range(30):
 		temp_l.append([t[0],float(t[1])])
 	topic_words_list.append(temp_l)
 
-colors = [[int(random.random()*100 + 155) for i in range(3)] for i in range(30)]
+f = open("static/data/topic_x_word.json", "w")
+
+f.write(str(topic_words_json))
+f.close()
+
+
+
+colors = [[206, 230, 174], [155, 230, 225], [206, 224, 163], [208, 178, 225], [187, 209, 234], [253, 236, 216], [207, 215, 207], [218, 155, 183], [204, 221, 185], [207, 163, 227], [254, 254, 169], [235, 180, 199], [189, 217, 230], [204, 227, 233], [197, 175, 170], [196, 194, 207], [208, 250, 180], [157, 218, 169], [156, 238, 254], [158, 157, 228], [210, 169, 220], [155, 233, 220], [243, 211, 222], [248, 245, 172], [215, 177, 197], [241, 192, 240], [178, 159, 199], [253, 180, 201], [214, 231, 175], [186, 214, 248]]
+
+# f = open("static/data/colors1.json","w")
+# f.write(str({"colors":colors}))
+# f.close()
+
 colors_str = ["rgb("+str(i[0])+","+str(i[1])+","+str(i[2])+")" for i in colors]
 print(colors_str)
-# matrix
-# topic distribution : all words in a topic
-# topics in a document (same as matrix?)
-# document text
-# document ids?
-# topic overview : topic per sentence
 
 app = Flask(__name__)
 
@@ -113,13 +119,10 @@ def docsearch():
 
 	return jsonify({"scores":scores, "topic_scores":topic_score_array})
 
-@app.route("/get_doc")
+@app.route("/get_topic_scores")
 def get_doc():
 	docid = request.args.get('docid')
-	with open(DATA_FOLDER+"doc"+str(docid)+".txt", "r", encoding="ISO-8859-1") as f:
-		txt = f.read()
-	txt = txt.replace("\n","<br>")
-	return jsonify({"html":txt, "topicscores":doc_topic["doc"+str(docid)].tolist()})
+	return jsonify({"topicscores":doc_topic["doc"+str(docid)].tolist()})
 
 @app.route("/get_colors")
 def get_colors():
@@ -176,6 +179,7 @@ def home():
 	print("START******")
 	#return "HELLO"
 	return render_template('./index.html', colors_str=colors_str)
+	#return render_template('./index.html')
 
 # def get_line_graph_data(topic_id):
 
