@@ -103,26 +103,20 @@ function textViewInit(dname) {
 
     var topic_x_word
     d3.json("static/data/topic_words.json").then(function (data) {
-
         globalThis.topic_x_word = data
     });
     console.log("DATA LOAD DONE")
     var topic_colors = [[206, 230, 174], [155, 230, 225], [206, 224, 163], [208, 178, 225], [187, 209, 234], [253, 236, 216], [207, 215, 207], [218, 155, 183], [204, 221, 185], [207, 163, 227], [254, 254, 169], [235, 180, 199], [189, 217, 230], [204, 227, 233], [197, 175, 170], [196, 194, 207], [208, 250, 180], [157, 218, 169], [156, 238, 254], [158, 157, 228], [210, 169, 220], [155, 233, 220], [243, 211, 222], [248, 245, 172], [215, 177, 197], [241, 192, 240], [178, 159, 199], [253, 180, 201], [214, 231, 175], [186, 214, 248]]
-
-    $.ajax({
-        url: "/get_topic_scores",
-        type: "get",
-        async: false,
-        data: { docid: hd_doc_id },
-        success: function (response) {
-            console.log(response.topicscores)
+    var doc_vs_topic_scores
+    d3.json("static/data/doc_topic.json").then(function (data) {
+            //do what you need here
+            console.log("HEREHEREHEREHEREHERE")
+            console.log(data);
+            globalThis.doc_vs_topic_scores = data
             for (var i = 0; i < 30; i++) {
-                $(".progress-bar.prog" + i).css('width', 20 + 80 * response.topicscores[i] + '%').attr("aria-valuenow", 10 + 90 * response.topicscores[i])
+                $(".progress-bar.prog" + i).css('width', 20 + 80 * data["doc1"][i] + '%').attr("aria-valuenow", 10 + 90 * data["doc1"][i])
             }
-        },
-        error: function (xhr) {
-            //Do Something to handle error
-        }
+        
     });
 
     d3.text(file_name_doc).then(function (data) {

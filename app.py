@@ -46,7 +46,6 @@ for i in range(30):
 	topic_words_list.append(temp_l)
 
 f = open("static/data/topic_x_word.json", "w")
-
 f.write(str(topic_words_json))
 f.close()
 
@@ -175,16 +174,8 @@ def get_word_ranks():
 
 @app.route("/")
 def home():
-	# get_word_ranks()
 	print("START******")
-	#return "HELLO"
 	return render_template('./index.html', colors_str=colors_str)
-	#return render_template('./index.html')
-
-# def get_line_graph_data(topic_id):
-
-
-
 
 if __name__ == '__main__':
 	app.run(host='0.0.0.0',port=8000, debug=False)
