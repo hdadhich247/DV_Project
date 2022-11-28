@@ -96,11 +96,18 @@ function topicLineGraph(id, data, topic_colors) {
 
 function textViewInit(dname) {
     $("h5#doc-title").text(dname);
-
+    
     var hd_doc_id = 1; //TODO: Get from corpus view or the main page
     var file_name_linegraph = "static/data/doc" + hd_doc_id + "_linegraph.json"
     var file_name_doc = "static/data/doc" + hd_doc_id + ".txt"
 
+    d3.json("static/data/doc_ids.json").then(function (data) {
+        console.log(data)
+        $("h5#doc-title").text(data["doc"+hd_doc_id].replace(".txt", ""));
+
+    });
+    
+    
     var topic_x_word
     d3.json("static/data/topic_words.json").then(function (data) {
         globalThis.topic_x_word = data
@@ -114,7 +121,8 @@ function textViewInit(dname) {
             console.log(data);
             globalThis.doc_vs_topic_scores = data
             for (var i = 0; i < 30; i++) {
-                $(".progress-bar.prog" + i).css('width', 20 + 80 * data["doc1"][i] + '%').attr("aria-valuenow", 10 + 90 * data["doc1"][i])
+                $(".progress-bar.prog" + i).css('width', 20 + 80 * data["doc1"][i] + '%').attr("aria-valuenow", 10 + 90 * data["doc1"][i]).css('background-color', colors_str[i])
+
             }
         
     });
@@ -130,6 +138,7 @@ function textViewInit(dname) {
     d3.select("#doc-text-html")
             .append("p")
             .html(txt);
+
     //SVG D3
     var temp = '';
     $("span.hoverable").mouseenter(function () {
